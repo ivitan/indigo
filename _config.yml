@@ -20,9 +20,6 @@ menu:
   tags:
     text: 标签
     url: /tags
-  film:
-    text: 观影
-    url: /movies
   info-circle:
     text: 关于
     url: /about
