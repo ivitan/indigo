@@ -58,7 +58,8 @@ archive_yearly: true
 show_last_updated: true
 
 # 是否开启分享
-share: true
+share: false
+github: true
 
 # 是否开启打赏，关闭 reward: false
 reward:

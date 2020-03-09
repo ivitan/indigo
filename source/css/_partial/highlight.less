@@ -10,30 +10,25 @@
 @h-aqua: #3e999f;
 @h-blue: #4271ae;
 @h-purple: #8959a8;
-@h-fs: 12.5px;
+@h-fs: 14px;
 
 .codeBlock() {
     position: relative;
     overflow-x: auto;
-    padding: 3px !important;
-    font-size: @h-fs*1.1;
-    line-height: @h-fs*1.5;
+    padding: 20px;
+    font-size: @h-fs;
+    line-height: @h-fs*1.6;
     background: @h-background;
 }
 
 .line-numbers() {
     color: @secondaryTextColor;
-    font-size: 0.9em !important;
+    font-size: 0.85em;
 }
 
 .post-content {
     pre {
-		position: relative;
-		overflow-x: auto;
-		padding: 5px 10px !important;
-		font-size: @h-fs*1.1;
-		line-height: @h-fs*1.5;
-		background: @h-background;
+        .codeBlock();
         color: @h-foreground;
 
         code {
@@ -45,8 +40,6 @@
 
     .highlight {
         .codeBlock();
-
-		padding: 0;
 
         pre {
             margin: 0;
@@ -89,8 +82,7 @@
         .gutter pre {
             .line-numbers();
             text-align: right;
-            padding-right: 0px !important;
-			//width:0px;
+            padding-right: 20px;
         }
 
 

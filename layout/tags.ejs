@@ -7,26 +7,23 @@
         if(is_tag()) { %>
             <div class="waterfall">
           <% page.posts.each(function(post){ %>
+
             <%- partial('_partial/archive', {post: post, date_format: config.date_format}) %>
+
         <% }) %>
             </div>
         <% } else {
-            var sort_tags = [];
-            site.tags.each(function(o) {
-                if(o.posts.length) {
-                    sort_tags.push(o)
-                }
-            })
-            sort_tags.sort(function (a, b) {
-                return a.name.localeCompare(b.name, "zh")
-            })
-            sort_tags.forEach(function(tag){
+            site.tags.each(function(tag){
                 if(tag.length){
             %>
+
             <h3 class="archive-separator" id="tag-<%=tag.name %>"><%=tag.name %></h3>
+
             <div class="waterfall">
             <% tag.posts.each(function(post){  %>
+
                 <%- partial('_partial/archive', {post: post, date_format: config.date_format}) %>
+
             <% }) %>
             </div>
             <% }
