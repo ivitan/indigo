@@ -92,7 +92,7 @@ tajs: false
 
 # google
 google_analytics: UA-144334903-1
-google_adsense: ca-pub-2581760538335948
+google_adsense: false
 google_site_verification: false
 
 # sogou站长验证 http://zhanzhang.sogou.com/
@@ -158,14 +158,9 @@ visit_counter:
   site_uv: 访客数：
   site_pv: 访问量：
 
-# 动态定义title
-title_change:
-  normal: (つェ⊂)咦!又好了!
-  leave: 您似乎掉线了呢！
-
 # 设置为 true 发布后将使用 unpkg cdn 最新的主题样式
 # 如果想让你的自定义样式生效，把此项设为 false
-cdn: true
+cdn: false
 
 # 设置为 true 将使用 lightbox render 图片
 lightbox: true
