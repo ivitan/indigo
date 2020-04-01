@@ -11,15 +11,15 @@ menu:
   home:
     text: 主页
     url: /
+  tags:
+    text: 标签
+    url: /tags
   th-list:
     text: 分类
     url: /categories
   archives:
     text: 归档
     url: /archives
-  tags:
-    text: 标签
-    url: /tags
   info-circle:
     text: 关于
     url: /about
