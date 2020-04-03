@@ -459,6 +459,9 @@
     }
 }
 
+.post-list-item .headerlink:before {
+    visibility: hidden;
+}
 
 .comments {
     padding: 40px 0 0;
@@ -467,6 +470,10 @@
 @media screen and (max-width:760px) {
     .post-widget {
         display: none
+    }
+
+    .headerlink:before {
+        visibility: hidden;
     }
 
     .post-article {
@@ -529,6 +536,11 @@
     .has-jax {
         font-size: 10px;
     }
+    
+    .headerlink:before {
+        visibility: hidden;
+    }
+
     .post-content {
         .highlight,
         .image-bubble,

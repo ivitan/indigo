@@ -32,3 +32,6 @@
     <%- partial('post/comment') %>
 </article>
 <%- partial('post/reward') %>
+<script src="//unpkg.com/jquery@latest/dist/jquery.min.js"></script>
+<script src="<%- url_for(theme_js('/js/clipboard', cache)) %>"></script>
+<script src="<%- url_for(theme_js('/js/copy', cache)) %>"></script>
