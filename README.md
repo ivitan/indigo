@@ -1,11 +1,15 @@
-Modify from hexo-theme-material-indigo
+Modify from [hexo-theme-indigo](https://github.com/yscoder/hexo-theme-indigo)
 ================
 
-[![Join the chat at https://gitter.im/hexo-theme-indigo/Lobby](https://badges.gitter.im/hexo-theme-indigo/Lobby.svg)](https://gitter.im/hexo-theme-indigo/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+Material Design 风格的Hexo主题，基于 Hexo 3.0+ 制作。 [Preview](https://vitan.me)
 
-Material Design 风格的Hexo主题，基于 Hexo 3.0+ 制作。 [Preview](http://imys.net/)
-
-> 现有两个主题分支，我的博客中使用的是 card 分支卡片风格主题，master 分支是旧版平铺式风格主题。
+## New Feature
+1. 添加代码块复制
+2. 添加发布时间、居胥阅读 Icon
+3. 添加置顶功能
+4. 修改代码块宽度显示
+5. 修复 Item-Index 开启时渲染问题
+6. 修复移动设备显示问题
 
 ## Feature
 
@@ -19,15 +23,32 @@ Material Design 风格的Hexo主题，基于 Hexo 3.0+ 制作。 [Preview](http:
 8. 支持文章打赏。
 
 ## Useage
+### Install
+```git ~/hexo-site
+git clone https://github.com/ivitan/indigo.git themes/indigo
+
+npm install hexo-renderer-less --save
+npm install hexo-generator-feed --save
+npm install hexo-generator-json-content --save
+npm install hexo-helper-qrcode --save # 可选
+```
+
+### Post Pin
+- Install
+
+```sh ~/hexo-site
+wget https://github.com/ivitan/ivitan.github.io/releases/download/Pin/generator.js -O ./node_modules/hexo-generator-index/lib/generator.js
+```
+
+- Useage
+
+```sh
+---
+title: 
+date: 
+top: 101 # > 100
+---
+```
+
 
 [文档 | Document](https://github.com/yscoder/hexo-theme-indigo/wiki)
-
-## ChangeLog
-
-升级前请仔细查看更改内容，如非必要可不升级。
-
-[ChangeLog](https://github.com/yscoder/hexo-theme-indigo/releases)
-
-## OtherVersion
-
-* [vuepress-theme-indigo](https://github.com/yscoder/vuepress-theme-indigo)
