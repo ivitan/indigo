@@ -8,7 +8,7 @@ Material Design 风格的Hexo主题，基于 Hexo 3.0+ 制作。 [Preview](https
 2. 添加发布时间、居胥阅读 Icon
 3. 添加置顶功能
 4. 修改代码块宽度显示
-5. 修复 Item-Index 开启时渲染问题
+5. 修复 Item-Index 开启渲染时显示问题
 6. 修复移动设备显示问题
 
 ## Feature
@@ -24,7 +24,8 @@ Material Design 风格的Hexo主题，基于 Hexo 3.0+ 制作。 [Preview](https
 
 ## Useage
 ### Install
-```git ~/hexo-site
+```git
+cd ~/hexo-site
 git clone https://github.com/ivitan/indigo.git themes/indigo
 
 npm install hexo-renderer-less --save
@@ -36,7 +37,8 @@ npm install hexo-helper-qrcode --save # 可选
 ### Post Pin
 - Install
 
-```sh ~/hexo-site
+```sh 
+cd ~/hexo-site
 wget https://github.com/ivitan/ivitan.github.io/releases/download/Pin/generator.js -O ./node_modules/hexo-generator-index/lib/generator.js
 ```
 
