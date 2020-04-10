@@ -5,7 +5,7 @@ Material Design 风格的Hexo主题，基于 Hexo 3.0+ 制作。 [Preview](https
 
 ## New Feature
 1. 添加代码块复制
-2. 添加发布时间、居胥阅读 Icon
+2. 添加发布时间、继续阅读 Icon
 3. 添加置顶功能
 4. 修改代码块宽度显示
 5. 修复 Item-Index 开启渲染时显示问题
