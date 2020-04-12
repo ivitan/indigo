@@ -1,4 +1,7 @@
-const { version, name } = require('../package.json')
+const {
+    version,
+    name
+} = require('../package.json')
 
 hexo.extend.helper.register('theme_version', () => version)
 

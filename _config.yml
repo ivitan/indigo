@@ -40,7 +40,7 @@ favicon: /img/favicon.png
 email: admin@vitan.me
 
 # 设置 Android L Chrome 浏览器状态栏颜色
-color: '#3F51B5'
+color: "#3F51B5"
 
 # 页面标题
 tags_title: Tags
@@ -64,8 +64,8 @@ github: true
 # 是否开启打赏，关闭 reward: false
 reward:
   title: 感谢支持！
-  wechat: /img/wechat.png     #微信，关闭设为 false
-  alipay: /img/alipay.png    #支付宝，关闭设为 false
+  wechat: /img/wechat.png #微信，关闭设为 false
+  alipay: /img/alipay.png #支付宝，关闭设为 false
 
 # 是否开启搜索
 search: true
@@ -76,7 +76,7 @@ hideMenu: true
 # 是否开启toc
 # toc: false
 toc:
-  list_number: true  # 是否显示数字排序
+  list_number: true # 是否显示数字排序
 
 # 文章页留言内容，hexo中所有变量及辅助函数等均可调用，具体请查阅 hexo.io
 postMessage: 本文链接：<a href="<%- url_for(page.path).replace(/index\.html$/, '') %>" target="_blank" rel="external"><%- page.permalink.replace(/index\.html$/, '') %></a>
@@ -127,7 +127,7 @@ gitalk: false
 # Valine Comment system. https://valine.js.org
 valine:
   enable: ture # 如果你想使用valine，请将值设置为 true
-  appId:  XCjYQPc9kGEIiyvI3z87u597-gzGzoHsz # your leancloud appId
+  appId: XCjYQPc9kGEIiyvI3z87u597-gzGzoHsz # your leancloud appId
   appKey: rG3tgBLm6WGpoU2895oVKXVU # your leancloud appKey
   notify: ture # Mail notify
   verify: false # Verify code
@@ -139,7 +139,6 @@ valine:
 # 是否开启Hyper Comments，填写id则启用，false则禁用。http://hypercomments.com
 # Hyper Comments support. Write your id here, or false to disable
 hyper_id: false
-
 
 # 规范网址
 # 让搜索引擎重定向你的不同域名、不同子域、同域不同目录的站点到你期望的路径

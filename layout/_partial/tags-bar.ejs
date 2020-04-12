@@ -33,13 +33,15 @@ if(type === 'categories' || type === 'tags'){ %>
 
             %>
 
-            <a href="<%- url_for(tag.path) %>" style="-webkit-order:<%= order%>;order:<%= order%>" class="tags-list-item waves-effect waves-button waves-light<% if(is_current(tag.path)){%> active<%}%>"><%-tag.name%></a>
+            <a href=" <%- url_for(tag.path) %>" style="-webkit-order:<%= order%>;order:<%= order%>" class="tags-list-item waves-effect waves-button waves-light<% if(is_current(tag.path)){%> active<%}%>"><%-tag.name%></a>
 
         <% }) %>
     </nav>
     <!-- PC show more-->
-    <div class="tags-list-more">
-        <a href="javascript:;" onclick="BLOG.tabBar(this)" class="action tags-list-item waves-effect waves-circle waves-light"><i class="icon icon-ellipsis-h"></i></a>
-    </div>
+    <div class=" tags-list-more">
+            <a href="javascript:;" onclick="BLOG.tabBar(this)"
+                class="action tags-list-item waves-effect waves-circle waves-light"><i
+                    class="icon icon-ellipsis-h"></i></a>
+</div>
 </div>
 <% } %>

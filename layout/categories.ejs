@@ -5,28 +5,28 @@
 <div class="container body-wrap fade">
     <%
         if(is_category()) { %>
-            <div class="waterfall">
-          <% page.posts.each(function(post){ %>
+    <div class="waterfall">
+        <% page.posts.each(function(post){ %>
 
-            <%- partial('_partial/archive', {post: post, date_format: config.date_format}) %>
+        <%- partial('_partial/archive', {post: post, date_format: config.date_format}) %>
 
         <% }) %>
-            </div>
-        <% } else {
+    </div>
+    <% } else {
             site.categories.each(function(cate){
                 if(cate.length) {
             %>
 
-            <h3 class="archive-separator" id="tag-<%=cate.name %>"><%=cate.name %></h3>
+    <h3 class="archive-separator" id="tag-<%=cate.name %>"><%=cate.name %></h3>
 
-            <div class="waterfall">
-            <% cate.posts.each(function(post){  %>
+    <div class="waterfall">
+        <% cate.posts.each(function(post){  %>
 
-                <%- partial('_partial/archive', {post: post, date_format: config.date_format}) %>
-            <% }) %>
-            </div>
+        <%- partial('_partial/archive', {post: post, date_format: config.date_format}) %>
+        <% }) %>
+    </div>
 
-            <% }
+    <% }
             })
         }
     %>

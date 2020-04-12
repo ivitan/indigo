@@ -25,15 +25,15 @@
             y = ny;
             m = nm;
     %>
-            <% if(i > 0){%></div> <% } %>
-            <h3 class="archive-separator"><%=dt.format('MMMM, YYYY')%></h3>
-            <div class="waterfall">
+    <% if(i > 0){%></div> <% } %>
+<h3 class="archive-separator"><%=dt.format('MMMM, YYYY')%></h3>
+<div class="waterfall">
     <%    } %>
 
-        <%- partial('_partial/archive', {post: post, date_format: 'MMM D'}) %>
+    <%- partial('_partial/archive', {post: post, date_format: 'MMM D'}) %>
 
     <%})%>
-    </div>
+</div>
 
-    <%- partial('_partial/paginator') %>
+<%- partial('_partial/paginator') %>
 </div>

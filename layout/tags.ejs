@@ -5,28 +5,28 @@
 <div class="container body-wrap fade">
     <%
         if(is_tag()) { %>
-            <div class="waterfall">
-          <% page.posts.each(function(post){ %>
+    <div class="waterfall">
+        <% page.posts.each(function(post){ %>
 
-            <%- partial('_partial/archive', {post: post, date_format: config.date_format}) %>
+        <%- partial('_partial/archive', {post: post, date_format: config.date_format}) %>
 
         <% }) %>
-            </div>
-        <% } else {
+    </div>
+    <% } else {
             site.tags.each(function(tag){
                 if(tag.length){
             %>
 
-            <h3 class="archive-separator" id="tag-<%=tag.name %>"><%=tag.name %></h3>
+    <h3 class="archive-separator" id="tag-<%=tag.name %>"><%=tag.name %></h3>
 
-            <div class="waterfall">
-            <% tag.posts.each(function(post){  %>
+    <div class="waterfall">
+        <% tag.posts.each(function(post){  %>
 
-                <%- partial('_partial/archive', {post: post, date_format: config.date_format}) %>
+        <%- partial('_partial/archive', {post: post, date_format: config.date_format}) %>
 
-            <% }) %>
-            </div>
-            <% }
+        <% }) %>
+    </div>
+    <% }
             })
         }
     %>
