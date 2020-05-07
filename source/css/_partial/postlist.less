@@ -28,8 +28,8 @@
     overflow: hidden;
     >*:not(:first-child) {
         &:before {
-            content: "·";
-            padding: 0 .5em;
+            content: "";
+            padding: 0.3em;
         }
     }
 }
@@ -58,6 +58,12 @@
     color: @accentColor;
     &:hover {
         color: @accentColor;
+    }
+    &:before {
+        font-family:'FontAwesome'; 
+        content: '\f02b';
+        padding: 0.3em;
+        color: #727272;
     }
 }
 
@@ -90,7 +96,6 @@
         background: @tag-color-6
     }
 }
-
 
 .article-tag-list-link {
     display: block;
