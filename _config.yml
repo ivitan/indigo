@@ -40,7 +40,7 @@ favicon: /img/favicon.png
 email: admin@vitan.me
 
 # 设置 Android L Chrome 浏览器状态栏颜色
-color: "#3F51B5"
+color: "#f45a8d"
 
 # 页面标题
 tags_title: Tags
@@ -153,8 +153,8 @@ about: false
 
 # “不蒜子”访问量统计，详见 http://ibruce.info/2015/04/04/busuanzi/
 visit_counter:
-  site_uv: <i class="icon icon-lg icon-user"></i>
-  site_pv: <i class="icon icon-lg icon-eye"></i> 
+  site_uv: <i class="icon icon-user"></i>
+  site_pv: <i class="icon icon-eye"></i> 
 
 # 设置为 true 发布后将使用 unpkg cdn 最新的主题样式
 # 如果想让你的自定义样式生效，把此项设为 false

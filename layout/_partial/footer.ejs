@@ -2,15 +2,7 @@
     <div class="top">
         <%- partial('plugins/site-visit') %>
         <p>
-            <% if ((config.feed) && (config.feed.path.length)) { %>
-            <span><a href="<%- url_for(config.feed.path) %>" target="_blank" class="rss" title="rss"><i
-                        class="icon icon-lg icon-rss"></i></a></span>
-            <% } %>
-            <span><%- __('footer.license') %></span>
-        </p>
-    </div>
-    <div class="bottom">
-        <p><span><%-config.author %> &copy;
+            <span><%-config.author %> &copy;
                 <%if (theme.since_year && theme.since_year < date(new Date(), 'YYYY')) {%><%- theme.since_year %> -
                 <%}%><%- date(new Date(), 'YYYY') %></span>
             <span>
@@ -18,8 +10,17 @@
                 <a href="http://beian.miit.gov.cn/" target="_blank"><%- theme.ICP_license %></a><br>
                 <% } %>
                 Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme <a
-                    href="https://github.com/ivitan/indigo" target="_blank">indigo</a>
+                    href="https://github.com/ivitan/indigo" target="_blank">Indigo</a>
             </span>
+        </p>
+    </div>
+    <div class="bottom">
+        <p>
+            <% if ((config.feed) && (config.feed.path.length)) { %>
+            <span><a href="<%- url_for(config.feed.path) %>" target="_blank" class="rss" title="RSS"><i
+                        class="icon icon-lg icon-rss"></i></a></span>
+            <% } %>
+            <span><%- __('footer.license') %></span>
         </p>
     </div>
 </footer>
