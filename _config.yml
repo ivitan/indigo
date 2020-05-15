@@ -63,7 +63,7 @@ github: true
 
 # 是否开启打赏，关闭 reward: false
 reward:
-  title: 感谢支持！
+  title: 感谢支持
   wechat: /img/wechat.png #微信，关闭设为 false
   alipay: /img/alipay.png #支付宝，关闭设为 false
 
