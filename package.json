@@ -1,6 +1,6 @@
 {
-  "name": "hexo-theme-material-indigo",
-  "version": "1.7.2",
+  "name": "indigo_pro",
+  "version": "1.8.5",
   "description": "Material Design theme for Hexo.",
   "keywords": [
     "hexo",
@@ -8,12 +8,12 @@
     "material design"
   ],
   "author": {
-    "name": "yusen",
-    "email": "634206017@qq.com"
+    "name": "Vitan",
+    "email": "vitan.me@gmail.com"
   },
   "license": "MIT",
   "repository": {
-    "url": "git+https://github.com/yscoder/hexo-theme-indigo.git",
+    "url": "git+https://github.com/ivitan/indigo.git",
     "type": "git"
   }
 }
