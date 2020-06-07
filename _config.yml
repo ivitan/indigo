@@ -9,21 +9,19 @@
 #    target: _blank    是否跳出，省略则在当前页面打开
 menu:
   home:
-    text: 主页
+    text: Home
     url: /
-  tags:
-    text: 标签
-    url: /tags
-  th-list:
-    text: 分类
-    url: /categories
   archives:
-    text: 归档
+    text: Archive
     url: /archives
-  info-circle:
-    text: 关于
+  tags:
+    text: Tags
+    url: /tags
+  user:
+    text: About
     url: /about
-  github:
+  github-alt:
+    text: Github
     url: https://github.com/ivitan
     target: _blank
 
@@ -157,7 +155,7 @@ visit_counter:
 
 # 设置为 true 发布后将使用 unpkg cdn 最新的主题样式
 # 如果想让你的自定义样式生效，把此项设为 false
-cdn: true
+cdn: false
 
 # 设置为 true 将使用 lightbox render 图片
 lightbox: true
