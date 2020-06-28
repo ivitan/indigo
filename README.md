@@ -1,15 +1,16 @@
-Modify from [hexo-theme-indigo](https://github.com/yscoder/hexo-theme-indigo)
+Base on [hexo-theme-indigo](https://github.com/yscoder/hexo-theme-indigo)
 ================
 
 Material Design 风格的Hexo主题，基于 Hexo 3.0+ 制作。 [Preview](https://vitan.me)
 
 ## New Feature
-1. 添加代码块复制
+1. 添加代码块复制功能
 2. 添加发布时间、继续阅读 Icon
 3. 添加置顶功能
 4. 修改代码块宽度显示
 5. 修复 Item-Index 开启渲染时显示问题
 6. 修复移动设备显示问题
+7. 增加文章分类统计
 
 ## Feature
 
