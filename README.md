@@ -1,7 +1,7 @@
 Base on [hexo-theme-indigo](https://github.com/yscoder/hexo-theme-indigo)
 ================
 
-Material Design 风格的Hexo主题，基于 Hexo 3.0+ 制作。 [Preview](https://vitan.me)
+Material Design 风格的Hexo主题，基于 Hexo 3.0+ 制作。 [Preview](https://ivitan.com)
 
 ## New Feature
 1. 添加代码块复制功能
