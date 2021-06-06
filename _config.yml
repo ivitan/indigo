@@ -9,16 +9,16 @@
 #    target: _blank    是否跳出，省略则在当前页面打开
 menu:
   home:
-    text: Home
+    text: 首页
     url: /
   archives:
-    text: Archive
+    text: 归档
     url: /archives
   tags:
-    text: Tags
+    text: 标签
     url: /tags
   user:
-    text: About
+    text: 关于
     url: /about
   github-alt:
     text: Github
@@ -129,7 +129,7 @@ valine:
   notify: ture # Mail notify
   verify: false # Verify code
   avatar: wavatar # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
-  placeholder: Write a comment here. # Comment Box placeholder
+  placeholder: Just go go. # Comment Box placeholder
   guest_info: nick,mail,link # Comment header info
   pageSize: 10 # comment list page size
 
